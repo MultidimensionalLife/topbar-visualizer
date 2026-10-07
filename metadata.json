@@ -1,0 +1,8 @@
+{
+  "uuid": "topbar-visualizer@steerch.com",
+  "name": "Top Bar Audio Visualizer",
+  "description": "Real-time soundbar spectrum visualizer of your system audio output, shown in the top bar.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.topbar-visualizer",
+  "version": 1
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.topbar-visualizer"
+          path="/org/gnome/shell/extensions/topbar-visualizer/">
+    <key name="bar-count" type="i">
+      <range min="4" max="64"/>
+      <default>16</default>
+      <summary>Number of bars</summary>
+    </key>
+    <key name="bar-width" type="i">
+      <range min="1" max="12"/>
+      <default>3</default>
+      <summary>Bar width in pixels</summary>
+    </key>
+    <key name="bar-gap" type="i">
+      <range min="0" max="8"/>
+      <default>1</default>
+      <summary>Gap between bars in pixels</summary>
+    </key>
+    <key name="color" type="s">
+      <default>'#62a0ea'</default>
+      <summary>Bar color (top of gradient)</summary>
+    </key>
+    <key name="color-bottom" type="s">
+      <default>'#c061cb'</default>
+      <summary>Bar color (bottom of gradient)</summary>
+    </key>
+    <key name="sensitivity" type="d">
+      <range min="0.2" max="5.0"/>
+      <default>1.0</default>
+      <summary>Gain multiplier</summary>
+    </key>
+    <key name="fps" type="i">
+      <range min="10" max="60"/>
+      <default>30</default>
+      <summary>Frames per second</summary>
+    </key>
+    <key name="position" type="s">
+      <choices>
+        <choice value="left"/>
+        <choice value="center"/>
+        <choice value="right"/>
+      </choices>
+      <default>'right'</default>
+      <summary>Top bar box</summary>
+    </key>
+    <key name="mirror" type="b">
+      <default>false</default>
+      <summary>Draw bars mirrored around the vertical center</summary>
+    </key>
+  </schema>
+</schemalist>
